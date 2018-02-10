@@ -605,7 +605,7 @@ function setCoord2(pos) {
         map.panTo({lat: latitude, lng: longitude});
 
         var xhr = new XMLHttpRequest();
-        var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyBkgq6skqj_3s0ME2aQHUmq6N_EJ4iADKs&location=" + latitude + "," + longitude + "&radius=1000&keyword=pharmacieGarde";
+        var url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?key=AIzaSyBkgq6skqj_3s0ME2aQHUmq6N_EJ4iADKs&location=" + latitude + "," + longitude + "&radius=1000&keyword=pharmacie";
         xhr.open("GET", url, false);
         xhr.send();
 
