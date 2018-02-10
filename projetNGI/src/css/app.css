@@ -163,13 +163,13 @@ li:nth-child(even){
 
 
 html {
-  position: relative;
+  /* position: relative; */
   height: 100%;
 }
 
 body {
   position: absolute;
-  top: 100%;
+  top: 40%;
   left: 50%;
   height:90%;
 
