@@ -12,7 +12,7 @@
     <script src="js/ngi.polyfill.min.js"></script>
     <!-- Base css, but you'll likely want to keep them -->
     <link rel="stylesheet" href="css/reset.css" type="text/css">
-<link rel="stylesheet" href="css/reset2.css" type="text/css">
+<!-- <link rel="stylesheet" href="css/reset2.css" type="text/css"> -->
     <!-- Your custom files -->
     <link rel="stylesheet" href="css/app.css" type="text/css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -26,12 +26,12 @@
   </head>
   <body>
     <div id="wrapper">
-     <!-- <div id="close"><img src="images/close.png" onclick="gm.system.closeApp()" alt="close"></div> -->
+     <div id="close"><img src="images/close.png" onclick="gm.system.closeApp()" alt="close"></div> 
       <div class="main">
   
         	<div id="start-up-page">
-        		<h1>Who was Driving?</h1>
-        		<h2>Select a Driver</h2>
+        		<!-- <h1>Who was Driving?</h1> -->
+        		<!-- <h2>Select a Driver</h2> -->
         		<div class="row">
               <div id="driver-select-button-list">
         			<!-- <div class="col-sm-4">
@@ -44,38 +44,36 @@
         				<button class="btn red" type="button"><span>Driver 3</span></button>
         			</div> -->
               </div>
-            	<div></div>
-            	<button id="driver-select-manual" class="btn blue" type="button"><span>New Driver</span></button>
+            	<!-- <div></div> -->
+            	<!-- <button id="driver-select-manual" class="btn blue" type="button"><span>New Driver</span></button> -->
         		</div>
         	</div>
 
         	<!--New Driver Screen -->
 
         	<div id="new-driver">
-        		<form>
-          			<label for="name">Driver Name</label>
-          			<input type="text" id="driver-name-asdf" name="name"/>
-          			<button id="driver-manual-done" class="btn orange" type="button"><span>Done</span></button>
-        		</form>
+        		<!-- <form> -->
+          			<!-- <label for="name">Driver Name</label> -->
+          			<!-- <input type="text" id="driver-name-asdf" name="name"/> -->
+          			<!-- <button id="driver-manual-done" class="btn orange" type="button"><span>Done</span></button> -->
+        		<!-- </form> -->
         	</div>
 
           <div id="guess-driver">
-            <h1 id="guess-h1">Trip Driver Recognized:</h1>
-            <h1 id="guess-h2">Driver Name</h1>
-            <div class="row">
-              <div class="col-sm-6">
-                <button id="guess-yes" class="btn" type="button"><span>Yes</span></button>
-              </div>
-              <div class="col-sm-6">
-                <button id="guess-no" class="btn red" type="button"><span>No</span></button>
-              </div>
-            </div>
+            <!-- <h1 id="guess-h1">Trip Driver Recognized:</h1> -->
+            <!-- <h1 id="guess-h2">Driver Name</h1> -->
+            <!-- <div class="row"> -->
+              <!-- <div class="col-sm-6"> -->
+                <!-- <button id="guess-yes" class="btn" type="button"><span>Yes</span></button> -->
+              <!-- </div> -->
+              <!-- <div class="col-sm-6"> -->
+                <!-- <button id="guess-no" class="btn red" type="button"><span>No</span></button> -->
+              <!-- </div> -->
+            <!-- </div> -->
           </div>
 
           <div id="start-drive">
-            <h1>Bonjour</h1>
-			
-            <h3>Commencer votre voyage !!</h3>
+       <img src="images/capture1.png"></img> 
           </div>
 
         	<!-- Status Screen -->
@@ -101,7 +99,7 @@
         									<!-- </svg> -->
         									<h1 id="status-header-duration">0</h1>
 										
-        									<h3>dUrée du voyage </h3>
+        									<h3>durée du voyage </h3>
         									<!-- <p id="status-small-text" class="diamond">&diams;</p> -->
 											
 													
@@ -114,7 +112,7 @@
         					</div><!--info-->
 							
         				<!-- <div class="clear"></div> -->
-						<br><br><br><br><br><br><br><br><br><br>
+						<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 						   <div id="map-container">
         <div id="map"></div>
 		</div>
