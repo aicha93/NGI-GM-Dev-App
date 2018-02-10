@@ -9,6 +9,8 @@ Notre projet consiste à faire deux taches principales :
 
 réalisé par:      El khannachi aicha  / Benyahya lamaie / Achtout loubna
 
+master BIG DATA ANALYTICS ET SMART SYSTEMS /faculté des sciences dher el mehraz fes 
+
 
 
 
